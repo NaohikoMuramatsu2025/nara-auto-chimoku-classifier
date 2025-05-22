@@ -29,10 +29,32 @@ nara-auto-chimoku-classifier/
 
 ## ▶️ 実行手順
 
-1. 必要なファイルを `Input/`, `Model/` に配置。
-2. `start_chimoku.bat` をダブルクリック。
+1. 必要なファイルを `Input/`、`Model/` に配置してください。
+2. `start_chimoku.bat` をダブルクリックして実行します。
 3. `Output/predicted.geojson` に分類結果が出力されます。
+4. `チェック.qgz` を使えばQGISで結果を可視化できます。
 
-## 🔗 関連プロジェクト
+---
 
-- [`nara-land-classifier`](https://github.com/xxxxxx/nara-land-classifier)
+## 💡 使用環境・依存ライブラリ
+
+以下のPythonライブラリを使用しています（`requirements.txt`にまとめても可）：
+
+- `numpy`
+- `torch`
+- `pandas`
+- `geopandas`
+- `rasterio`
+- `shapely`
+- `matplotlib`
+
+仮想環境を使う場合：
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+
+## 📷 処理イメージ
+
+![処理イメージ](2025-05-22_21h38_04.png)
