@@ -3,7 +3,7 @@
 
 本プロジェクトは、`nara-land-classifier` で訓練されたモデルを使用し、地図データから推定地目を自動的に分類・GeoJSON形式で出力するユーティリティです。
 
-## 📁 ディレクトリ構成
+## ディレクトリ構成
 
 ```text
 nara-auto-chimoku-classifier/
@@ -27,7 +27,7 @@ nara-auto-chimoku-classifier/
     ├── config.ini
     └── land_use_guess_fixed.py
 
-## ▶️ 実行手順 / How to Run
+## 実行手順
 
 1. 必要なファイルを `Input/` および `Model/` に配置してください。
 2. `start_chimoku.bat` をダブルクリックして実行します。
@@ -37,7 +37,7 @@ nara-auto-chimoku-classifier/
 - [nara-land-classifier GitHub リポジトリ](https://github.com/NaohikoMuramatsu2025/nara-land-classifier)
 
 
-## 🖼️ イメージ参照
+## イメージ参照
 
 以下の画像は、本ユーティリティにおいて分類対象となった地図データの例です。地図上には筆ポリゴン（地番境界）と推定された地目情報が重ねて表示されており、モデルによって自動分類された「宅地」「田」「公衆用道路」「雑種地」などのラベルが確認できます。
 
