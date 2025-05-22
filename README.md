@@ -3,7 +3,7 @@
 本プロジェクトは、`nara-land-classifier` で訓練されたモデルを使用し、地図データから推定地目を自動的に分類・GeoJSON形式で出力するユーティリティです。
 
 ## 📁 ディレクトリ構成
-'''text
+```text
 nara-auto-chimoku-classifier/
 │ start_chimoku.bat
 │ チェック.qgz
@@ -24,7 +24,7 @@ nara-auto-chimoku-classifier/
 └─python_src/
 ├─ config.ini
 └─ land_use_guess_fixed.py
-'''text
+```text
 
 
 ## ▶️ 実行手順
