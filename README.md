@@ -26,7 +26,7 @@ nara-auto-chimoku-classifier/
 └── python_src/
     ├── config.ini
     └── land_use_guess_fixed.py
-
+```text
 ## 実行手順
 
 1. 必要なファイルを `Input/` および `Model/` に配置してください。
